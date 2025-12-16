@@ -1,0 +1,24 @@
+# NOTE: V1: 
+#           - Gathered Data
+#           - Cleaned Data CSV
+#           - Ability to access specific data points
+#           - Calculated a rough crime rate value per neighbourhood and stored it respectively in a dictionary
+#
+# NOTE: V2:
+#           - Imported crime dictionary into main.py
+#           - Starting GUI with Tkinter built
+#           - Menu selection screen involving city selection (Toronto only for now)
+#
+# NOTE: V3: 
+#           - Merged CrimeValue with geojson data for Toronto neighbourhoods
+#           - Switched to fastapi and react instead of folium and tkinter
+#           - Created basic fastapi backend to serve neighbourhood data (/neighbourhoods endpoint)
+#
+# NOTE: V4: Steps
+#           - NOTE: Setup leaflet but its erroring - may need earlier react version? Do i need two nodemodules?
+#           - Install Leaflet, Build React/Leaflet frontend to visualize neighbourhood data
+#           - Create basemap with Leaflet
+#           - Connect frontend to backend to fetch neighbourhood data and display on map
+#           - Pass data to leaflet - display polygons with colour coding based on crime rate
+#           - Add interactivity (tooltips/popups) to show detailed neighbourhood info on click/hover
+#           - Test end-to-end functionality and fix bugs
