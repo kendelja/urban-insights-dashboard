@@ -4,15 +4,23 @@ import "leaflet/dist/leaflet.css";
 
 export default function BaseMap() {
   return (
-    <MapContainer
-      center={[43.65107, -79.347015]} // Toronto coords
-      zoom={12}
-      style={{ height: "100vh", width: "100%" }}
-    >
-      <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-      />
-    </MapContainer>
+    <div style={{ position: "fixed", inset: 0, zIndex: 0 }}>
+      <MapContainer
+        center={[43.6532, -79.3832]}
+        zoom={12}
+        style={{ height: "100%", width: "100%" }}
+        scrollWheelZoom={true}
+      >
+        <TileLayer
+          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'
+          maxZoom={19}
+          // reduce requests from high-DPI devices
+          detectRetina={false}
+          // show placeholder if a tile fails
+          errorTileUrl="https://via.placeholder.com/256?text=no+tile"
+        />
+      </MapContainer>
+    </div>
   );
 }
