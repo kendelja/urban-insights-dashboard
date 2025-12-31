@@ -14,11 +14,11 @@
 #           - Switched to fastapi and react instead of folium and tkinter
 #           - Created basic fastapi backend to serve neighbourhood data (/neighbourhoods endpoint)
 #
-# NOTE: V4: Steps
-#           - NOTE: Setup leaflet but its erroring - may need earlier react version? Do i need two nodemodules?
-#           - Install Leaflet, Build React/Leaflet frontend to visualize neighbourhood data
-#           - Create basemap with Leaflet
-#           - Connect frontend to backend to fetch neighbourhood data and display on map
-#           - Pass data to leaflet - display polygons with colour coding based on crime rate
-#           - Add interactivity (tooltips/popups) to show detailed neighbourhood info on click/hover
-#           - Test end-to-end functionality and fix bugs
+# NOTE: V4:
+#           - Created basic react frontend to display map with neighbourhood polygons
+#           - Integrated Leaflet map into react frontend
+#           - Fetched neighbourhood data from fastapi backend and displayed polygons on map
+#
+# NOTE: V5:
+#           - Added color coding to neighbourhood polygons based on crime score
+#           - Implemented hover effect to highlight neighbourhood polygons (Not working perfectly yet)
