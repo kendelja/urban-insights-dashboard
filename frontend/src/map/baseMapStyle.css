@@ -9,3 +9,8 @@
   text-align: center;
   pointer-events: none;
 }
+.neighbourhood-hover-tooltip p,
+.neighbourhood-hover-tooltip div {
+  white-space: normal;
+  overflow-wrap: break-word;
+}

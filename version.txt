@@ -22,3 +22,9 @@
 # NOTE: V5:
 #           - Added color coding to neighbourhood polygons based on crime score
 #           - Implemented hover effect to highlight neighbourhood polygons (Not working perfectly yet)
+# NOTE: V6:
+#           - Improved color gradient for crime scores
+#           - Added tooltips to display neighbourhood names and crime scores on hover
+#           - Fixed hover effect to ensure only one polygon is highlighted at a time
+#           - Need to fix when zoomed - tooltip displays all neighbourhood names without hover
+#           - Need to add more stats (Rating top worst/best neighbourhoods, population, what years data is from, etc.)
