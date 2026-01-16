@@ -121507,7 +121507,7 @@
       "type": "Feature",
       "properties": {
         "AREA_S_CD": "091",
-        "AREA_NAME": "Weston-Pellam Park"
+        "AREA_NAME": "Weston-Pelham Park"
       },
       "geometry": {
         "type": "Polygon",
@@ -122449,7 +122449,7 @@
       "type": "Feature",
       "properties": {
         "AREA_S_CD": "026",
-        "AREA_NAME": "Downsview-Roding-CFB"
+        "AREA_NAME": "Downsview"
       },
       "geometry": {
         "type": "Polygon",
@@ -162985,7 +162985,7 @@
       "type": "Feature",
       "properties": {
         "AREA_S_CD": "017",
-        "AREA_NAME": "Mimico (includes Humber Bay Shores)"
+        "AREA_NAME": "Mimico-Queensway"
       },
       "geometry": {
         "type": "Polygon",

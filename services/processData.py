@@ -2,6 +2,11 @@
 import csv
 import string
 
+# NOTE
+# NOTE: When update to data pipeline there is instructions for API on TO Data site (https://open.toronto.ca/dataset/neighbourhood-profiles/)
+# NOTE 
+
+
 # Function to read csv file into rows
 file_path = './data/torontoCrimeData.csv'
 def read_csv(file_path):

@@ -13,6 +13,8 @@ export default function BaseMap() {
   // State to hold neighbourhood data and hovered polygon ID
   const [neighbourhoods, setNeighbourhoods] = useState([]);
   const [hoveredId, setHoveredId] = useState(null);
+  const labelZoomThreshold = 12;
+  const [zoom, setZoom] = useState(labelZoomThreshold);
   // Fetch neighbourhood data on component mount
   useEffect(() => {
     getNeighbourhoods()
@@ -26,14 +28,50 @@ export default function BaseMap() {
       });
   }, []);
 
+  const formatPopulation = (population) => {
+    if (!population || population === 0) return "N/A";
+    return population.toLocaleString();
+  };
+
+  const handleZoomEnd = (e) => {
+    setZoom(e.target.getZoom());
+  };
+
   return (
     // Render the map container with polygons for each neighbourhood
     <div style={{ position: "fixed", inset: 0, zIndex: 0 }}>
+      {/* // Legend for crime score color coding */}
+      <div className="legend-container">
+        <div className="legend-title">Crime Score</div>
+        {/* Gradient bar */}
+        <div className="legend-gradient" />
+        {/* Tick labels */}
+        <div className="legend-scale">
+          <span>0</span>
+          <span>25</span>
+          <span>50</span>
+          <span>75</span>
+          <span>100+</span>
+        </div>
+        <div className="legend-caption">Low crime → High crime</div>
+        <div className="legend-description">
+          Crime score is calculated from combined counts of break-ins, vehicle thefts, weapons incidents, and other
+          crime types, normalized by neighbourhood population.
+          <br />
+          <span className="legend-range"> Range: 0 – 131</span>
+        </div>
+      </div>
       <MapContainer
         center={[43.6532, -79.3832]}
         zoom={12}
+        minZoom={11}
+        maxZoom={15}
         style={{ height: "100%", width: "100%" }}
         scrollWheelZoom={true}
+        whenCreated={(map) => {
+          map.on("zoomend", handleZoomEnd);
+          setZoom(map.getZoom());
+        }}
       >
         <TileLayer
           url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
@@ -82,11 +120,11 @@ export default function BaseMap() {
                 mouseout: () => setHoveredId(null),
               }}
             >
-              {/* Tooltip for neighbourhood name when zoomed out */}
-              {MapContainer.zoom < 13 && <Tooltip>{n.neighbourhood}</Tooltip>}
+              {/* Tooltip for neighbourhood name when zoomed in */}
+              {zoom > 13 && <Tooltip>{n.neighbourhood}</Tooltip>}
               {/* Detailed tooltip card displaying name, color code, and crime score on hover */}
               {isHovered && (
-                <Tooltip permanent direction="top" className="neighbourhood-hover-tooltip" width={200} height={150}>
+                <Tooltip permanent direction="right" className="neighbourhood-hover-tooltip" width={200} height={125}>
                   <div style={{ textAlign: "center", width: 200, height: 150 }}>
                     <strong>{n.neighbourhood}</strong>
                     <div
@@ -99,21 +137,13 @@ export default function BaseMap() {
                       }}
                     />
                     <div>
-                      <span style={{ fontWeight: 600 }}>Crime score:</span> <span>{n.crime_score}</span>
+                      {" "}
+                      {/* Neighbourhood details */}
+                      <span style={{ fontWeight: 600 }}>Population: </span>{" "}
+                      <span>{formatPopulation(n.population)}</span>
+                      <br />
+                      <span style={{ fontWeight: 600 }}>Crime score: </span> <span>{n.crime_score}</span>
                     </div>
-                    <p
-                      style={{
-                        fontSize: "0.8em",
-                        opacity: 0.8,
-                        marginTop: 8,
-                        marginBottom: 0,
-                        lineHeight: "1.3",
-                        textAlign: "center",
-                      }}
-                    >
-                      Calculated from combined counts of break-ins, vehicle thefts, weapons incidents, and other crime
-                      types, then normalized by the neighbourhood population (range: 0–131).
-                    </p>
                   </div>
                 </Tooltip>
               )}
@@ -124,3 +154,4 @@ export default function BaseMap() {
     </div>
   );
 }
+

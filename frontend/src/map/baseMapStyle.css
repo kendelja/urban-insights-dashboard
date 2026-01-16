@@ -9,8 +9,92 @@
   text-align: center;
   pointer-events: none;
 }
+.neighbourhood-hover-tooltip {
+  background-color: #fff;
+  border: 2px solid #444;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  position: absolute;
+  z-index: 10;
+}
+.neighbourhood-hover-tooltip h3 {
+  font-size: 12px;
+  color: #222;
+}
 .neighbourhood-hover-tooltip p,
 .neighbourhood-hover-tooltip div {
   white-space: normal;
   overflow-wrap: break-word;
 }
+
+
+/* Legend styles */
+.legend-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+
+  width: 300px;
+  padding: 12px 14px;
+
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.legend-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+/* Gradient bar */
+.legend-gradient {
+  height: 14px;
+  width: 100%;
+  border-radius: 7px;
+
+  background: linear-gradient(
+    to right,
+    hsl(120, 80%, 42%),
+    hsl(90, 80%, 42%),
+    hsl(60, 80%, 42%),
+    hsl(30, 80%, 42%),
+    hsl(0, 80%, 42%)
+  );
+
+  margin-bottom: 6px;
+}
+
+/* Scale numbers */
+.legend-scale {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.legend-caption {
+  font-size: 0.7rem;
+  color: #666;
+  text-align: center;
+}
+.legend-description {
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+  font-size: 0.55rem;
+}
+
+.legend-container:hover .legend-description {
+  opacity: 1;
+}
+
+

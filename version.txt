@@ -28,3 +28,19 @@
 #           - Fixed hover effect to ensure only one polygon is highlighted at a time
 #           - Need to fix when zoomed - tooltip displays all neighbourhood names without hover
 #           - Need to add more stats (Rating top worst/best neighbourhoods, population, what years data is from, etc.)
+# NOTE: V7:
+#           - Included population on neighbourhood hover card 
+#           - Fixed missing populations mostly by substituting 2016 data where 2021 was missing
+#           - Need to recalculate crime scores @ 0 because it was incorrectly calculated due to pop being 0
+# NOTE: V8:
+#           - Fixed all cases of null/0 values for crime score (resulting from missing pop in the computation), giving more accurate crime scores and display
+#           - Made legend to represent crime range score colour per Neighbourhood
+#           - Added description to legend to explain crime score calculation and range
+#
+#
+# NOTE Upgrades TODO: 
+#           - Figure out zoom for tooltip labels to appear instead of cards
+#           - Swappable overlays:
+#             - Crime rating Overlay
+#             - Rental cost Overlay(may have to not do per combined neighbourhoods or just use shady data, hard to find accurate or up to date data)
+#             - Unit size Overlay
