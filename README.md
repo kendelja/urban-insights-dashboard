@@ -9,6 +9,8 @@ The application processes real-world datasets (crime statistics, population, and
 
 This project is designed to demonstrate full-stack development, data engineering, geospatial visualization, and applied analytics using a modern, production-style architecture.
 
+![mapDemo (1)](https://github.com/user-attachments/assets/b41c4e4e-ebbe-4196-a692-541f78be73f3)
+
 Tech Stack
 ----------
 Backend
@@ -62,3 +64,4 @@ Project Goals
 - (Optionally) Create a flexible platform that can extend beyond Toronto to other cities
 
 Jace Kendel 2025
+
