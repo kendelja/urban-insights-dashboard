@@ -9,7 +9,11 @@ The application processes real-world datasets (crime statistics, population, and
 
 This project is designed to demonstrate full-stack development, data engineering, geospatial visualization, and applied analytics using a modern, production-style architecture.
 
+**Crime Rating Overlay (By neighbourhood)**
 ![mapDemo (1)](https://github.com/user-attachments/assets/b41c4e4e-ebbe-4196-a692-541f78be73f3)
+
+**Rent Overlay (By borough)**
+![mapDemoRent](https://github.com/user-attachments/assets/8bc90e49-27bc-46e0-b350-d61123ce47ed)
 
 Tech Stack
 ----------
