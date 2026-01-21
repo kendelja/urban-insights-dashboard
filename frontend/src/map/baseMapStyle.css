@@ -73,6 +73,21 @@
   margin-bottom: 6px;
 }
 
+.legend-gradient-rent{
+  height: 14px;
+  width: 100%;
+  border-radius: 7px;
+  background: linear-gradient(
+    to right,
+    hsl(240, 80%, 42%),
+    hsl(210, 80%, 42%),
+    hsl(180, 80%, 42%),
+    hsl(150, 80%, 42%),
+    hsl(120, 80%, 42%)
+  );
+  margin-bottom: 6px; 
+}
+
 /* Scale numbers */
 .legend-scale {
   display: flex;
@@ -97,4 +112,86 @@
   opacity: 1;
 }
 
+.leaflet-interactive {
+  mix-blend-mode: multiply;
+}
 
+.overlay-toggle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 8px;
+}
+
+.overlay-toggle button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.overlay-toggle button.active {
+  background: #222;
+  color: white;
+}
+
+.leaflet-interactive {
+  mix-blend-mode: multiply;
+}
+
+.map-control-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+
+  background: #ffffff;
+  padding: 14px 16px;
+  border-radius: 12px;
+  width: 300px;
+  height: 80px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.panel-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.panel-subtitle {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.overlay-toggle {
+  display: flex;
+  gap: 6px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.overlay-toggle button {
+  flex: 1;
+  padding: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100px;
+}
+
+.overlay-toggle button.active {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}

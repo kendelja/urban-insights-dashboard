@@ -1,6 +1,7 @@
 [
     {
         "neighbourhood": "Yonge-St.Clair",
+        "borough": "Downtown",
         "crime_score": 24,
         "population": 15336,
         "polygon": [
@@ -382,6 +383,7 @@
     },
     {
         "neighbourhood": "York University Heights",
+        "borough": "North York",
         "crime_score": 97,
         "population": 32279,
         "polygon": [
@@ -2511,6 +2513,7 @@
     },
     {
         "neighbourhood": "Lansing-Westgate",
+        "borough": "North York",
         "crime_score": 44,
         "population": 18262,
         "polygon": [
@@ -3552,6 +3555,7 @@
     },
     {
         "neighbourhood": "Yorkdale-Glen Park",
+        "borough": "North York",
         "crime_score": 93,
         "population": 20454,
         "polygon": [
@@ -4237,6 +4241,7 @@
     },
     {
         "neighbourhood": "Stonegate-Queensway",
+        "borough": "Etobicoke",
         "crime_score": 43,
         "population": 28740,
         "polygon": [
@@ -5270,6 +5275,7 @@
     },
     {
         "neighbourhood": "Tam O'Shanter-Sullivan",
+        "borough": "Scarborough",
         "crime_score": 33,
         "population": 31562,
         "polygon": [
@@ -6451,6 +6457,7 @@
     },
     {
         "neighbourhood": "The Beaches",
+        "borough": "East York",
         "crime_score": 36,
         "population": 23280,
         "polygon": [
@@ -9160,6 +9167,7 @@
     },
     {
         "neighbourhood": "Thistletown-Beaumond Heights",
+        "borough": "Etobicoke",
         "crime_score": 49,
         "population": 11197,
         "polygon": [
@@ -10477,6 +10485,7 @@
     },
     {
         "neighbourhood": "Thorncliffe Park",
+        "borough": "East York",
         "crime_score": 37,
         "population": 23182,
         "polygon": [
@@ -11594,6 +11603,7 @@
     },
     {
         "neighbourhood": "Danforth East York",
+        "borough": "East York",
         "crime_score": 32,
         "population": 18201,
         "polygon": [
@@ -11991,6 +12001,7 @@
     },
     {
         "neighbourhood": "Humewood-Cedarvale",
+        "borough": "York",
         "crime_score": 31,
         "population": 15476,
         "polygon": [
@@ -12428,6 +12439,7 @@
     },
     {
         "neighbourhood": "Islington-City Centre West",
+        "borough": "Etobicoke",
         "crime_score": 41,
         "population": 27740,
         "polygon": [
@@ -15889,6 +15901,7 @@
     },
     {
         "neighbourhood": "Danforth",
+        "borough": "Downtown",
         "crime_score": 73,
         "population": 9913,
         "polygon": [
@@ -16182,6 +16195,7 @@
     },
     {
         "neighbourhood": "Rustic",
+        "borough": "East York",
         "crime_score": 47,
         "population": 10805,
         "polygon": [
@@ -16703,6 +16717,7 @@
     },
     {
         "neighbourhood": "Scarborough Village",
+        "borough": "Scarborough",
         "crime_score": 48,
         "population": 18862,
         "polygon": [
@@ -19260,6 +19275,7 @@
     },
     {
         "neighbourhood": "South Parkdale",
+        "borough": "Downtown",
         "crime_score": 51,
         "population": 25853,
         "polygon": [
@@ -22525,6 +22541,7 @@
     },
     {
         "neighbourhood": "South Riverdale",
+        "borough": "Downtown",
         "crime_score": 59,
         "population": 31452,
         "polygon": [
@@ -36350,6 +36367,7 @@
     },
     {
         "neighbourhood": "St.Andrew-Windfields",
+        "borough": "North York",
         "crime_score": 49,
         "population": 18858,
         "polygon": [
@@ -38335,6 +38353,7 @@
     },
     {
         "neighbourhood": "Taylor-Massey",
+        "borough": "East York",
         "crime_score": 42,
         "population": 16617,
         "polygon": [
@@ -38700,6 +38719,7 @@
     },
     {
         "neighbourhood": "Humber Summit",
+        "borough": "North York",
         "crime_score": 97,
         "population": 14066,
         "polygon": [
@@ -39665,6 +39685,7 @@
     },
     {
         "neighbourhood": "Humbermede",
+        "borough": "North York",
         "crime_score": 56,
         "population": 19618,
         "polygon": [
@@ -40778,6 +40799,7 @@
     },
     {
         "neighbourhood": "Centennial Scarborough",
+        "borough": "Scarborough",
         "crime_score": 28,
         "population": 14882,
         "polygon": [
@@ -43227,6 +43249,7 @@
     },
     {
         "neighbourhood": "Church-Yonge Corridor",
+        "borough": "Downtown",
         "crime_score": 63,
         "population": 27123,
         "polygon": [
@@ -43580,6 +43603,7 @@
     },
     {
         "neighbourhood": "Clairlea-Birchmount",
+        "borough": "Scarborough",
         "crime_score": 58,
         "population": 30413,
         "polygon": [
@@ -44901,6 +44925,7 @@
     },
     {
         "neighbourhood": "Cliffcrest",
+        "borough": "Scarborough",
         "crime_score": 50,
         "population": 18285,
         "polygon": [
@@ -54354,6 +54379,7 @@
     },
     {
         "neighbourhood": "Flemingdon Park",
+        "borough":"East York",
         "crime_score": 31,
         "population": 26143,
         "polygon": [
@@ -55327,6 +55353,7 @@
     },
     {
         "neighbourhood": "Corso Italia-Davenport",
+        "borough":"Downtown",
         "crime_score": 51,
         "population": 14119,
         "polygon": [
@@ -56104,6 +56131,7 @@
     },
     {
         "neighbourhood": "Ionview",
+        "borough":"Scarborough",
         "crime_score": 37,
         "population": 14319,
         "polygon": [
@@ -56521,6 +56549,7 @@
     },
     {
         "neighbourhood": "Junction Area",
+        "borough":"York",
         "crime_score": 59,
         "population": 16094,
         "polygon": [
@@ -57058,6 +57087,7 @@
     },
     {
         "neighbourhood": "Broadview North",
+        "borough":"East York",
         "crime_score": 35,
         "population": 11992,
         "polygon": [
@@ -57715,6 +57745,7 @@
     },
     {
         "neighbourhood": "Princess-Rosethorn",
+        "borough":"Etobicoke",
         "crime_score": 40,
         "population": 12982,
         "polygon": [
@@ -58448,6 +58479,7 @@
     },
     {
         "neighbourhood": "North Riverdale",
+        "borough":"East York",
         "crime_score": 39,
         "population": 12164,
         "polygon": [
@@ -59257,6 +59289,7 @@
     },
     {
         "neighbourhood": "Etobicoke West Mall",
+        "borough":"Etobicoke",
         "crime_score": 34,
         "population": 14417,
         "polygon": [
@@ -60086,6 +60119,7 @@
     },
     {
         "neighbourhood": "Forest Hill North",
+        "borough":"Downtown",
         "crime_score": 34,
         "population": 13265,
         "polygon": [
@@ -60403,6 +60437,7 @@
     },
     {
         "neighbourhood": "Glenfield-Jane Heights",
+        "borough":"North York",
         "crime_score": 53,
         "population": 32543,
         "polygon": [
@@ -61804,6 +61839,7 @@
     },
     {
         "neighbourhood": "Greenwood-Coxwell",
+        "borough": "East York",
         "crime_score": 47,
         "population": 15585,
         "polygon": [
@@ -62233,6 +62269,7 @@
     },
     {
         "neighbourhood": "Guildwood",
+        "borough": "Scarborough",
         "crime_score": 30,
         "population": 10752,
         "polygon": [
@@ -64402,6 +64439,7 @@
     },
     {
         "neighbourhood": "Trinity-Bellwoods",
+        "borough": "Downtown",
         "crime_score": 55,
         "population": 17146,
         "polygon": [
@@ -64743,6 +64781,7 @@
     },
     {
         "neighbourhood": "Victoria Village",
+        "borough": "East York",
         "crime_score": 42,
         "population": 19341,
         "polygon": [
@@ -65856,6 +65895,7 @@
     },
     {
         "neighbourhood": "Waterfront Communities-The Island",
+        "borough":"Downtown",
         "crime_score": 57,
         "population": 38159,
         "polygon": [
@@ -68345,6 +68385,7 @@
     },
     {
         "neighbourhood": "West Hill",
+        "borough": "Scarborough",
         "crime_score": 68,
         "population": 32000,
         "polygon": [
@@ -71278,6 +71319,7 @@
     },
     {
         "neighbourhood": "West Humber-Clairville",
+        "borough": "Etobicoke",
         "crime_score": 131,
         "population": 37783,
         "polygon": [
@@ -73867,6 +73909,7 @@
     },
     {
         "neighbourhood": "Westminster-Branson",
+        "borough": "North York",
         "crime_score": 32,
         "population": 28654,
         "polygon": [
@@ -75556,6 +75599,7 @@
     },
     {
         "neighbourhood": "Kennedy Park",
+        "borough": "Scarborough",
         "crime_score": 72,
         "population": 19131,
         "polygon": [
@@ -76161,6 +76205,7 @@
     },
     {
         "neighbourhood": "Kingsview Village-The Westway",
+        "borough": "Etobicoke",
         "crime_score": 46,
         "population": 23865,
         "polygon": [
@@ -77282,6 +77327,7 @@
     },
     {
         "neighbourhood": "Bayview Woods-Steeles",
+        "borough": "North York",
         "crime_score": 27,
         "population": 14142,
         "polygon": [
@@ -77803,6 +77849,7 @@
     },
     {
         "neighbourhood": "Clanton Park",
+        "borough": "North York",
         "crime_score": 57,
         "population": 20967,
         "polygon": [
@@ -78464,6 +78511,7 @@
     },
     {
         "neighbourhood": "Keelesdale-Eglinton West",
+        "borough": "York",
         "crime_score": 48,
         "population": 12334,
         "polygon": [
@@ -79045,6 +79093,7 @@
     },
     {
         "neighbourhood": "O'Connor-Parkview",
+        "borough": "East York",
         "crime_score": 40,
         "population": 20977,
         "polygon": [
@@ -79846,6 +79895,7 @@
     },
     {
         "neighbourhood": "Old East York",
+        "borough": "East York",
         "crime_score": 43,
         "population": 9731,
         "polygon": [
@@ -80595,6 +80645,7 @@
     },
     {
         "neighbourhood": "Casa Loma",
+        "borough": "Downtown",
         "crime_score": 35,
         "population": 13128,
         "polygon": [
@@ -81112,6 +81163,7 @@
     },
     {
         "neighbourhood": "Kensington-Chinatown",
+        "borough": "Downtown",
         "crime_score": 109,
         "population": 23271,
         "polygon": [
@@ -81457,6 +81509,7 @@
     },
     {
         "neighbourhood": "Kingsway South",
+        "borough": "Etobicoke",
         "crime_score": 49,
         "population": 10108,
         "polygon": [
@@ -82314,6 +82367,7 @@
     },
     {
         "neighbourhood": "Runnymede-Bloor West Village",
+        "borough": "York",
         "crime_score": 37,
         "population": 11216,
         "polygon": [
@@ -82867,6 +82921,7 @@
     },
     {
         "neighbourhood": "Forest Hill South",
+        "borough":"Downtown",
         "crime_score": 42,
         "population": 12615,
         "polygon": [
@@ -83304,6 +83359,7 @@
     },
     {
         "neighbourhood": "Henry Farm",
+        "borough":"North York",
         "crime_score": 29,
         "population": 25482,
         "polygon": [
@@ -84045,6 +84101,7 @@
     },
     {
         "neighbourhood": "Annex",
+        "borough":"Downtown",
         "crime_score": 66,
         "population": 35899,
         "polygon": [
@@ -84642,6 +84699,7 @@
     },
     {
         "neighbourhood": "Caledonia-Fairbank",
+        "borough":"York",
         "crime_score": 34,
         "population": 10785,
         "polygon": [
@@ -85231,6 +85289,7 @@
     },
     {
         "neighbourhood": "Humber Heights-Westmount",
+        "borough":"Etobicoke",
         "crime_score": 29,
         "population": 11701,
         "polygon": [
@@ -85980,6 +86039,7 @@
     },
     {
         "neighbourhood": "Roncesvalles",
+        "borough":"Downtown",
         "crime_score": 52,
         "population": 15749,
         "polygon": [
@@ -86601,6 +86661,7 @@
     },
     {
         "neighbourhood": "University",
+        "borough":"Downtown",
         "crime_score": 85,
         "population": 8366,
         "polygon": [
@@ -87302,6 +87363,7 @@
     },
     {
         "neighbourhood": "Hillcrest Village",
+        "borough":"North York",
         "crime_score": 34,
         "population": 17824,
         "polygon": [
@@ -87859,6 +87921,7 @@
     },
     {
         "neighbourhood": "Mount Dennis",
+        "borough":"York",
         "crime_score": 49,
         "population": 14549,
         "polygon": [
@@ -88376,6 +88439,7 @@
     },
     {
         "neighbourhood": "Dorset Park",
+        "borough":"Scarborough",
         "crime_score": 52,
         "population": 27379,
         "polygon": [
@@ -88993,6 +89057,7 @@
     },
     {
         "neighbourhood": "Edenbridge-Humber Valley",
+        "borough":"Etobicoke",
         "crime_score": 35,
         "population": 18129,
         "polygon": [
@@ -89782,6 +89847,7 @@
     },
     {
         "neighbourhood": "Dovercourt-Wallace Emerson-Junction",
+        "borough":"York",
         "crime_score": 48,
         "population": 13688,
         "polygon": [
@@ -90515,6 +90581,7 @@
     },
     {
         "neighbourhood": "Newtonbrook West",
+        "borough":"North York",
         "crime_score": 64,
         "population": 26703,
         "polygon": [
@@ -90968,6 +91035,7 @@
     },
     {
         "neighbourhood": "Niagara",
+        "borough":"Downtown",
         "crime_score": 40,
         "population": 15110,
         "polygon": [
@@ -92609,6 +92677,7 @@
     },
     {
         "neighbourhood": "Beechborough-Greenbrook",
+        "borough":"York",
         "crime_score": 61,
         "population": 7717,
         "polygon": [
@@ -92954,6 +93023,7 @@
     },
     {
         "neighbourhood": "High Park North",
+        "borough":"Downtown",
         "crime_score": 39,
         "population": 24203,
         "polygon": [
@@ -93327,6 +93397,7 @@
     },
     {
         "neighbourhood": "High Park-Swansea",
+        "borough":"Downtown",
         "crime_score": 31,
         "population": 24988,
         "polygon": [
@@ -94768,6 +94839,7 @@
     },
     {
         "neighbourhood": "Highland Creek",
+        "borough":"Scarborough",
         "crime_score": 34,
         "population": 14744,
         "polygon": [
@@ -95829,6 +95901,7 @@
     },
     {
         "neighbourhood": "North St.James Town",
+        "borough": "Downtown",
         "crime_score": 57,
         "population": 21290,
         "polygon": [
@@ -96102,6 +96175,7 @@
     },
     {
         "neighbourhood": "Oakridge",
+        "borough": "Scarborough",
         "crime_score": 64,
         "population": 15722,
         "polygon": [
@@ -97143,6 +97217,7 @@
     },
     {
         "neighbourhood": "Rosedale-Moore Park",
+        "borough":"Downtown",
         "crime_score": 68,
         "population": 22995,
         "polygon": [
@@ -97920,6 +97995,7 @@
     },
     {
         "neighbourhood": "Oakwood Village",
+        "borough": "York",
         "crime_score": 37,
         "population": 22721,
         "polygon": [
@@ -98301,6 +98377,7 @@
     },
     {
         "neighbourhood": "Wexford/Maryvale",
+        "borough": "Scarborough",
         "crime_score": 67,
         "population": 30622,
         "polygon": [
@@ -99358,6 +99435,7 @@
     },
     {
         "neighbourhood": "Eglinton East",
+        "borough": "Scarborough",
         "crime_score": 47,
         "population": 25672,
         "polygon": [
@@ -100523,6 +100601,7 @@
     },
     {
         "neighbourhood": "Elms-Old Rexdale",
+        "borough":"Etobicoke",
         "crime_score": 55,
         "population": 10152,
         "polygon": [
@@ -101628,6 +101707,7 @@
     },
     {
         "neighbourhood": "Agincourt North",
+        "borough": "Scarborough",
         "crime_score": 26,
         "population": 30426,
         "polygon": [
@@ -102569,6 +102649,7 @@
     },
     {
         "neighbourhood": "Agincourt South-Malvern West",
+        "borough": "Scarborough",
         "crime_score": 44,
         "population": 29799,
         "polygon": [
@@ -103474,6 +103555,7 @@
     },
     {
         "neighbourhood": "Englemount-Lawrence",
+        "borough": "North York",
         "crime_score": 30,
         "population": 24662,
         "polygon": [
@@ -104315,6 +104397,7 @@
     },
     {
         "neighbourhood": "Eringate-Centennial-West Deane",
+        "borough": "Etobicoke",
         "crime_score": 39,
         "population": 20359,
         "polygon": [
@@ -106636,6 +106719,7 @@
     },
     {
         "neighbourhood": "L'Amoreaux",
+        "borough": "Scarborough",
         "crime_score": 26,
         "population": 23940,
         "polygon": [
@@ -107421,6 +107505,7 @@
     },
     {
         "neighbourhood": "Banbury-Don Mills",
+        "borough": "North York",
         "crime_score": 34,
         "population": 34089,
         "polygon": [
@@ -110662,6 +110747,7 @@
     },
     {
         "neighbourhood": "Bathurst Manor",
+        "borough": "North York",
         "crime_score": 46,
         "population": 17529,
         "polygon": [
@@ -112591,6 +112677,7 @@
     },
     {
         "neighbourhood": "Alderwood",
+        "borough": "Etobicoke",
         "crime_score": 35,
         "population": 13746,
         "polygon": [
@@ -114576,6 +114663,7 @@
     },
     {
         "neighbourhood": "Regent Park",
+        "borough": "Downtown",
         "crime_score": 43,
         "population": 16686,
         "polygon": [
@@ -115013,6 +115101,7 @@
     },
     {
         "neighbourhood": "Bendale",
+        "borough": "Scarborough",
         "crime_score": 66,
         "population": 21422,
         "polygon": [
@@ -116474,6 +116563,7 @@
     },
     {
         "neighbourhood": "Birchcliffe-Cliffside",
+        "borough": "Scarborough",
         "crime_score": 40,
         "population": 25508,
         "polygon": [
@@ -121047,6 +121137,7 @@
     },
     {
         "neighbourhood": "Weston-Pelham Park",
+        "borough": "York",
         "crime_score": 48,
         "population": 12292,
         "polygon": [
@@ -121984,6 +122075,7 @@
     },
     {
         "neighbourhood": "Downsview",
+        "borough": "North York",
         "crime_score": 57,
         "population": 21829,
         "polygon": [
@@ -123925,6 +124017,7 @@
     },
     {
         "neighbourhood": "Lambton Baby Point",
+        "borough": "York",
         "crime_score": 29,
         "population": 8598,
         "polygon": [
@@ -124874,6 +124967,7 @@
     },
     {
         "neighbourhood": "Bay Street Corridor",
+        "borough": "Downtown",
         "crime_score": 145,
         "population": 16568,
         "polygon": [
@@ -125723,6 +125817,7 @@
     },
     {
         "neighbourhood": "Black Creek",
+        "borough": "North York",
         "crime_score": 55,
         "population": 23038,
         "polygon": [
@@ -126672,6 +126767,7 @@
     },
     {
         "neighbourhood": "Willowdale East",
+        "borough": "North York",
         "crime_score": 44,
         "population": 17790,
         "polygon": [
@@ -127617,6 +127713,7 @@
     },
     {
         "neighbourhood": "Willowdale West",
+        "borough": "North York",
         "crime_score": 38,
         "population": 20124,
         "polygon": [
@@ -127970,6 +128067,7 @@
     },
     {
         "neighbourhood": "Rouge",
+        "borough": "Scarborough",
         "crime_score": 30,
         "population": 24041,
         "polygon": [
@@ -132739,6 +132837,7 @@
     },
     {
         "neighbourhood": "Mount Olive-Silverstone-Jamestown",
+        "borough": "Etobicoke",
         "crime_score": 50,
         "population": 34946,
         "polygon": [
@@ -133820,6 +133919,7 @@
     },
     {
         "neighbourhood": "Cabbagetown-South St.James Town",
+        "borough": "Downtown",
         "crime_score": 64,
         "population": 12676,
         "polygon": [
@@ -134773,8 +134873,9 @@
     },
     {
         "neighbourhood": "Mount Pleasant East",
+        "borough": "North York",
         "crime_score": 30,
-        "population": null,
+        "population": 16775,
         "polygon": [
             [
                 [
@@ -135350,6 +135451,7 @@
     },
     {
         "neighbourhood": "Mount Pleasant West",
+        "borough": "North York",
         "crime_score": 30,
         "population": 18324,
         "polygon": [
@@ -135619,6 +135721,7 @@
     },
     {
         "neighbourhood": "Blake-Jones",
+        "borough": "Downtown",
         "crime_score": 44,
         "population": 8157,
         "polygon": [
@@ -136044,6 +136147,7 @@
     },
     {
         "neighbourhood": "Rexdale-Kipling",
+        "borough": "Etobicoke",
         "crime_score": 57,
         "population": 11383,
         "polygon": [
@@ -136485,6 +136589,7 @@
     },
     {
         "neighbourhood": "East End-Danforth",
+        "borough": "East York",
         "crime_score": 49,
         "population": 24390,
         "polygon": [
@@ -136922,6 +137027,7 @@
     },
     {
         "neighbourhood": "New Toronto",
+        "borough": "Etobicoke",
         "crime_score": 66,
         "population": 12645,
         "polygon": [
@@ -139731,6 +139837,7 @@
     },
     {
         "neighbourhood": "Palmerston-Little Italy",
+        "borough": "Downtown",
         "crime_score": 36,
         "population": 14240,
         "polygon": [
@@ -140004,6 +140111,7 @@
     },
     {
         "neighbourhood": "Parkwoods-Donalda",
+        "borough": "North York",
         "crime_score": 37,
         "population": 15492,
         "polygon": [
@@ -142309,6 +142417,7 @@
     },
     {
         "neighbourhood": "Pelmo Park-Humberlea",
+        "borough": "Etobicoke",
         "crime_score": 60,
         "population": 12725,
         "polygon": [
@@ -143878,6 +143987,7 @@
     },
     {
         "neighbourhood": "Playter Estates-Danforth",
+        "borough": "East York",
         "crime_score": 77,
         "population": 8177,
         "polygon": [
@@ -144211,6 +144321,7 @@
     },
     {
         "neighbourhood": "Willowridge-Martingrove-Richview",
+        "borough": "Etobicoke",
         "crime_score": 38,
         "population": 24894,
         "polygon": [
@@ -145252,6 +145363,7 @@
     },
     {
         "neighbourhood": "Woburn",
+        "borough": "Scarborough",
         "crime_score": 46,
         "population": 29076,
         "polygon": [
@@ -147961,6 +148073,7 @@
     },
     {
         "neighbourhood": "Woodbine-Lumsden",
+        "borough": "East York",
         "crime_score": 31,
         "population": 8568,
         "polygon": [
@@ -148246,6 +148359,7 @@
     },
     {
         "neighbourhood": "Bayview Village",
+        "borough": "North York",
         "crime_score": 36,
         "population": 28366,
         "polygon": [
@@ -149147,6 +149261,7 @@
     },
     {
         "neighbourhood": "Bedford Park-Nortown",
+        "borough": "North York",
         "crime_score": 47,
         "population": 25101,
         "polygon": [
@@ -150224,6 +150339,7 @@
     },
     {
         "neighbourhood": "Rockcliffe-Smythe",
+        "borough": "York",
         "crime_score": 48,
         "population": 23984,
         "polygon": [
@@ -151237,6 +151353,7 @@
     },
     {
         "neighbourhood": "Bridle Path-Sunnybrook-York Mills",
+        "borough": "North York",
         "crime_score": 48,
         "population": 12137,
         "polygon": [
@@ -153094,7 +153211,8 @@
     },
     {
         "neighbourhood": "Don Valley Village",
-        "crime_score": 41,
+        "borough": "North York",
+        "crime_score": 41,  
         "population": 30772,
         "polygon": [
             [
@@ -153699,6 +153817,7 @@
     },
     {
         "neighbourhood": "Weston",
+        "borough": "York",
         "crime_score": 71,
         "population": 21585,
         "polygon": [
@@ -154728,6 +154847,7 @@
     },
     {
         "neighbourhood": "Lawrence Park South",
+        "borough": "North York",
         "crime_score": 37,
         "population": 16851,
         "polygon": [
@@ -155261,6 +155381,7 @@
     },
     {
         "neighbourhood": "Brookhaven-Amesbury",
+        "borough": "North York",
         "crime_score": 49,
         "population": 19410,
         "polygon": [
@@ -155670,6 +155791,7 @@
     },
     {
         "neighbourhood": "Long Branch",
+        "borough": "Etobicoke",
         "crime_score": 42,
         "population": 12690,
         "polygon": [
@@ -156987,6 +157109,7 @@
     },
     {
         "neighbourhood": "Malvern",
+        "borough": "Scarborough",
         "crime_score": 30,
         "population": 29326,
         "polygon": [
@@ -158868,6 +158991,7 @@
     },
     {
         "neighbourhood": "Dufferin Grove",
+        "borough": "Downtown",
         "crime_score": 56,
         "population": 12696,
         "polygon": [
@@ -159173,6 +159297,7 @@
     },
     {
         "neighbourhood": "Maple Leaf",
+        "borough": "North York",
         "crime_score": 36,
         "population": 11198,
         "polygon": [
@@ -159690,6 +159815,7 @@
     },
     {
         "neighbourhood": "Markland Wood",
+        "borough": "Etobicoke",
         "crime_score": 34,
         "population": 11398,
         "polygon": [
@@ -161355,6 +161481,7 @@
     },
     {
         "neighbourhood": "Steeles",
+        "borough": "North York",
         "crime_score": 18,
         "population": 25870,
         "polygon": [
@@ -161664,6 +161791,7 @@
     },
     {
         "neighbourhood": "Lawrence Park North",
+        "borough": "North York",
         "crime_score": 32,
         "population": 16521,
         "polygon": [
@@ -161945,6 +162073,7 @@
     },
     {
         "neighbourhood": "Yonge-Eglinton",
+        "borough": "Downtown",
         "crime_score": 48,
         "population": 14680,
         "polygon": [
@@ -162330,6 +162459,7 @@
     },
     {
         "neighbourhood": "Mimico-Queensway",
+        "borough": "Etobicoke",
         "crime_score": 104,
         "population": 21790,
         "polygon": [
@@ -169507,6 +169637,7 @@
     },
     {
         "neighbourhood": "Morningside",
+        "borough": "Scarborough",
         "crime_score": 44,
         "population": 19186,
         "polygon": [
@@ -171084,6 +171215,7 @@
     },
     {
         "neighbourhood": "Moss Park",
+        "borough": "Downtown",
         "crime_score": 96,
         "population": 28930,
         "polygon": [
@@ -171649,6 +171781,7 @@
     },
     {
         "neighbourhood": "Little Portugal",
+        "borough": "Downtown",
         "crime_score": 41,
         "population": 17600,
         "polygon": [
@@ -172410,6 +172543,7 @@
     },
     {
         "neighbourhood": "Woodbine Corridor",
+        "borough": "East York",
         "crime_score": 41,
         "population": 13352,
         "polygon": [
@@ -172703,6 +172837,7 @@
     },
     {
         "neighbourhood": "Newtonbrook East",
+        "borough": "North York",
         "crime_score": 42,
         "population": 18201,
         "polygon": [
@@ -173092,6 +173227,7 @@
     },
     {
         "neighbourhood": "Milliken",
+        "borough": "Scarborough",
         "crime_score": 54,
         "population": 26922,
         "polygon": [
@@ -173861,6 +173997,7 @@
     },
     {
         "neighbourhood": "Pleasant View",
+        "borough": "North York",
         "crime_score": 25,
         "population": 16967,
         "polygon": [
@@ -174218,6 +174355,7 @@
     },
     {
         "neighbourhood": "Wychwood",
+        "borough": "York",
         "crime_score": 37,
         "population": 15392,
         "polygon": [
@@ -174539,6 +174677,7 @@
     },
     {
         "neighbourhood": "Leaside-Bennington",
+        "borough": "East York",
         "crime_score": 35,
         "population": 17990,
         "polygon": [
@@ -175744,6 +175883,7 @@
     },
     {
         "neighbourhood": "Briar Hill-Belgravia",
+        "borough": "York",
         "crime_score": 44,
         "population": 16842,
         "polygon": [
